@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#405bd8">
+<title>Thomas Mellina — SNCF Réseau</title>
+<style>
+:root{--blue:#405bd8;--blue2:#83b9e8;--ink:#202536;--muted:#667085;--line:#e7eaf1;--red:#d71920}
+*{box-sizing:border-box}
+body{margin:0;min-height:100vh;background:#f2f5fa;color:var(--ink);font-family:Arial,Helvetica,sans-serif;display:flex;justify-content:center;align-items:center;padding:20px}
+main{width:100%;max-width:470px;background:#fff;border-radius:22px;overflow:hidden;box-shadow:0 14px 44px rgba(35,55,110,.13)}
+.top{height:10px;background:linear-gradient(100deg,var(--blue2),var(--blue))}
+.content{padding:29px 25px 25px}
+.kicker{font-size:11px;letter-spacing:1.7px;text-transform:uppercase;color:var(--blue);font-weight:700}
+h1{font-size:31px;line-height:1.12;margin:11px 0 9px;letter-spacing:-.7px;color:#405bd8}
+.role{font-size:17px;line-height:1.4;color:#4b5fba;margin:0}
+.org{font-size:14px;line-height:1.55;color:#5366b8;margin:7px 0 23px}
+.rule{height:1px;background:var(--line);margin:0 0 19px}
+.address{font-size:14px;line-height:1.65;color:#303747;margin-bottom:20px}
+.links{display:grid;gap:10px}
+a.action{display:flex;align-items:center;gap:12px;padding:13px 14px;border:1px solid var(--line);border-radius:12px;text-decoration:none;color:#293247;font-size:14px;overflow-wrap:anywhere}
+.symbol{width:23px;flex:0 0 23px;text-align:center;font-weight:700;color:var(--blue)}
+a.action.primary{background:linear-gradient(105deg,#80b7e8,#405be0);border:0;color:#fff;font-weight:700;justify-content:center;margin-top:5px}
+.primary .symbol{color:#fff}
+.footer{padding:15px 22px 18px;background:#f8f9fc;border-top:1px solid var(--line);font-size:11px;line-height:1.55;color:#697386;text-align:center}
+.footer strong{color:#405bd8}
+</style>
+</head>
+<body>
+<main>
+  <div class="top"></div>
+  <section class="content">
+    <div class="kicker">Carte de visite numérique</div>
+    <h1>Thomas MELLINA</h1>
+    <p class="role">Conducteur de travaux SES</p>
+    <p class="org">SNCF Réseau&nbsp; | &nbsp;IFP RHN&nbsp; | &nbsp;UMT DA&nbsp; | &nbsp;GOP</p>
+    <div class="rule"></div>
+    <div class="address">
+      2 rue Clos Gaillard<br>
+      26000 Valence<br>
+      2<sup>ème</sup> étage&nbsp; | &nbsp;Bureau n° 211
+    </div>
+    <div class="links">
+      <a class="action" href="mailto:thomas.mellina@reseau.sncf.fr"><span class="symbol">@</span><span>thomas.mellina@reseau.sncf.fr</span></a>
+      <a class="action" href="tel:+33607894194"><span class="symbol">T</span><span>+33 (0)6 07 89 41 94</span></a>
+      <a class="action" href="https://www.linkedin.com/in/thomas-mellina-585655238/" target="_blank" rel="noopener noreferrer"><span class="symbol">in</span><span>Profil LinkedIn</span></a>
+      <a class="action primary" href="Thomas_Mellina.vcf" download><span class="symbol">↓</span><span>Enregistrer le contact</span></a>
+    </div>
+  </section>
+  <div class="footer"><strong>SNCF Réseau</strong><br>IFP RHN · UMT Drôme Ardèche · Groupe Organisation Production</div>
+</main>
+</body>
+</html>
