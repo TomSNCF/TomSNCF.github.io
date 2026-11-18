@@ -2,11 +2,11 @@ BEGIN:VCARD
 VERSION:3.0
 N:Mellina;Thomas;;;
 FN:Thomas MELLINA
-ORG:SNCF Réseau;IFP RHN;UMT DA;GOP
+ORG:SNCF Réseau;Infrapôle Rhodanien - UMT Drôme Ardèche - Groupe Organisation Production
 TITLE:Conducteur de travaux SES
 TEL;TYPE=CELL,WORK:+33607894194
 EMAIL;TYPE=INTERNET,WORK:thomas.mellina@reseau.sncf.fr
 ADR;TYPE=WORK:;;2 rue Clos Gaillard;Valence;;26000;France
-LABEL;TYPE=WORK:2 rue Clos Gaillard\n26000 Valence\n2ème étage, bureau n° 211
+LABEL;TYPE=WORK:2 rue Clos Gaillard\n26000 Valence\n2e étage, bureau n° 211
 URL:https://www.linkedin.com/in/thomas-mellina-585655238/
 END:VCARD
